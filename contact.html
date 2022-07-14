@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--These are comments
+Author: Jack Davitt
+Date Created: 28/06/2022
+Purpose: Assessment Piece
+Modifications:
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" /> <!--8-bit character encoding capable of encoding all possible characters-->
+        <meta name="description" content="Contact Page">
+        <meta name="keywords" content="italian,restuarant,contact,food,wine,Mario's,pizza,map">
+        <title>Mario's Pizza Restuarant || Contact Page</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/> <!--Link to external css mainstyle file-->
+    
+    </head>
+<body> <!-- Body Tag start of body section encoding capable of encoding all possible characters-->
+    <a id="top"></a>
+
+    <header>
+        <img id="mainlogo" src="images/mario_logo.png" alt="logo" width="290" height="200">
+    </header>
+    
+        <nav> <!-- Navigation to other pages-->
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="menu.html">Menu</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li id="active"> <a href="contact.html">Contact</a></li>
+                <li> <a href="blog.html">Blog</a></li>
+            </ul>
+        </nav> 
+
+        <a class="links" href="#bottom">Go To Bottom</a>
+        <main id="contact_main">            
+            <section id="section_form">
+                <h1>Please enter the following information:   (form action="http:/foo.com" method="post")</h1>
+                <form action="http:/foo.com" method="post">
+                    <label for="first_name">Your First name:<span class="required">*</span></label>
+                    <input title="type your first name here" type="text" name="first_name" id="first_name" autofocus required> <br><br>
+                    <label for="last_name">Your Last name:<span class="required">*</span></label>
+                    <input title="type your last name here"type="text" name="last_name" id="last_name"> <br><br>
+                    <label for="email">Your Email:<span class="required">*</span></label>
+                    <input title="type your email here"type="email" name="email" id="email" required placeholder="mariospizza@gmail.com"><br><br>
+
+                    <label for="internet">Department:</label>
+                <fieldset>
+                    <input type="checkbox" id="booking" name="booking" value="booking" checked>Booking <br>
+                    <input type="checkbox" class="margin1" name="vacancy" value="vacancy">Vacancy <br>
+                    <input type="checkbox" class="margin1" name="nutrician" value="nutrician">Nutrician <br>
+                    <input type="checkbox" class="margin1" name="hours" value="hours">Opening Hours <br>
+                    <input type="checkbox" class="margin1" name="Add" value="Add">Other <br>
+                </fieldset> <br>
+                    <label for="message">Your Message:</label>
+                    <textarea cols="50" rows="6"
+                    id="message" name="message" placeholder="Your message must be less than 300 characters" data-maxlength="300"></textarea> <br>
+                    <br><br><br><br>
+
+                    <label for="subscribe">Subscribe to Mario's email list to stay up to date</label><br><br>
+			        <input type="checkbox" id="subscribe" name="subscribe"><br>
+			        <input type="submit" name="submit" id="button1" value="Submit">
+                    <input type="reset" name="reset" id="button2">
+                </form>
+                <p style="margin-left: 138px"> <span class="required">*</span> <em> indicates a required field</em></p>
+                
+            </section>
+
+        </main>
+
+        <a class="links" href="#top">Go To Top</a>
+        <a id="bottom"></a>
+        
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li> <a href="index.html">Home</a></li>
+                            <li> <a href="menu.html">Menu</a></li>
+                            <li> <a href="about.html">About</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                            <li> <a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                     <div class="footer-col">
+                        <img src="images/mario_logo.png" alt="Mario's logo">
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyright">
+            <h4>&copy;2022 Marios's Pizza Restuarant</h4>
+        </div>
+       </footer>
+
+                    
+</body> 
+
+</html>
